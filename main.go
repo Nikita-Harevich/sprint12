@@ -63,7 +63,6 @@ func (s ParcelService) PrintClientParcels(client int) error {
 			parcel.Number, parcel.Address, parcel.Client, parcel.CreatedAt, parcel.Status)
 	}
 	fmt.Println()
-	fmt.Println()
 
 	return nil
 }
